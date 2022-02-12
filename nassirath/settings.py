@@ -31,9 +31,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 MEDIA_ROOT= os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 SECRET_KEY =os.environ['SECRET_KEY']
-DEBUG =False
+DEBUG =True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nassirathsbirthday.herokuapp.com']
 
 
 # Application definition
