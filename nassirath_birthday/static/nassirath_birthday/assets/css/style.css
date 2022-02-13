@@ -2,11 +2,40 @@
 /* ----------------------------------------------------
 	 General styles
 ------------------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
 
 
 body {
 	background-color: white;
-	background-image: url(../img/bg.jpg);
+	background-image: url(../img/fleur3.jpg);
 	background-position: left top;
 	background-repeat: repeat;
 	-webkit-font-smoothing: antialiased;
@@ -46,7 +75,7 @@ img {
 
 p {
 	font-size: 1.1em;
-    font-family: 'Oxygen', sans-serif;	
+	font-family: 'Segoe UI', sans-serif;
 	color: #333;
 	line-height: 1.7em;
 	margin-top: 14px;
@@ -55,7 +84,7 @@ p {
 
 
 h1 {
-    font-family: 'Qwigley', Helvetica, Sans-serif;	   
+	font-family: 'Segoe UI', sans-serif;	   
     font-size: 2.2em;
 	font-weight: 600;
     color: #4f4d47;
@@ -104,7 +133,7 @@ h4 {
 
 
 .heading-inner {
-    font-family: 'Qwigley', Helvetica, Sans-serif;	   
+	font-family: 'Segoe UI', sans-serif; 
     font-size: 2.2em;
 	font-weight: 600;
     color: #4f4d47;
@@ -155,7 +184,7 @@ h4 {
 .navbar-default .navbar-brand {
     padding: 10px 12px 14px;
     text-align: center;
-    font-family: 'Qwigley', Helvetica, Sans-serif;		
+	font-family: 'Segoe UI', sans-serif;		
 	font-size: 2.4em;
     line-height: normal;
     color: #4f4d47;
@@ -201,7 +230,7 @@ h4 {
     margin: 0;
     padding: 30px 0 14px;
     text-align: center;
-    font-family: 'Qwigley', Helvetica, Sans-serif;
+    font-family: 'Segoe UI', sans-serif;
 	font-size: 4.1em;
     line-height: normal;
     color: #4f4d47;
@@ -813,7 +842,7 @@ figure.effect-moses:hover img {
     font-size: 1.1em;
     padding: 0 0.25em;
     background: white;
-    font-family: 'Qwigley', Helvetica, Sans-serif;	   
+    font-family: 'Segoe UI', sans-serif;	   
 }
 
 
