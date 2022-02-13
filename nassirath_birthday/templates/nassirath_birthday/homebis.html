@@ -23,7 +23,72 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Qwigley" />
         <!-- Font awesome -->
         <link href="{%static 'nassirath_birthday/assets/font-awesome-4.1.0/css/font-awesome.min.css'%}" rel="stylesheet" type="text/css">
+        <style>
+          @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 
+h1 {
+  
+/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+ 
+        </style>
    </head>
    <body>
    
@@ -31,9 +96,14 @@
    <div class="wrapper">
   	  <div class="col-md-12">
          <!-- Logo -->
-         <div class="brand wow fadeIn" data-wow-delay="0.1s"> Joyeux Anniversaire
-           <div class=""> - À TOI (À VOUS) -  </div>
+         <div class="brand wow fadeIn" data-wow-delay="0.1s" style="font-style: oblique; font-weight: bold;"> Joyeux Anniversaire
+        
          </div>
+         <script type="text/javascript">
+           
+
+         </script>
+         <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
 
          <!-- Navigation -->
          <nav class="navbar navbar-default" role="navigation">
@@ -47,7 +117,8 @@
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
                 <div class="navbar-brand"><a href="#">Joyeux Anniversaire</a>
-                <div class=""> - À toi (à vous) - </div>
+                  
+               
                 </div>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -90,8 +161,12 @@
 
          <!-- Start main image and the text below -->
          <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
-            <h1>Bonheur & Joie en quantité </h1>
-            <h1>Que Dieu vous bombarde de tant de bénédictions que vous serez submergé ! Profitez de votre journée ! </h1>
+          
+    
+      
+            <h1 style="background-color: gray;">- à toi (à vous) -</h1>
+            <h1 style="background-color: gray;">Bonheur & Joie en quantité </h1>
+            <p>Que Dieu vous bombarde de tant de bénédictions que vous serez submergé ! Profitez de votre journée ! </p>
               <img src="{%static 'nassirath_birthday/assets/img/fleur1.jpg'%}" alt="img" class="resp main-image"/>
                 
               <hr>
@@ -119,7 +194,7 @@
              <div class="first">
              <div class="square wow fadeInDown" data-wow-delay=".5s"></div>
              </div>
-             <img src="{%static 'nassirath_birthday/assets/img/fleur3.jpg'%}" alt="img" class="photo-home"/> 
+             <img src="{%static 'nassirath_birthday/assets/img/fleur2.jpg'%}" alt="img" class="photo-home"/> 
           </div>
           <!-- End right image -->
 
